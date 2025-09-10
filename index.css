@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(77, 211, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 30px;
+    width: 500px;
+}
+
+#head{
+    width: 500px;
+    height: 80px;
+    background-color: rgb(0, 255, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+.form-group{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 300;
+    margin-top: 5px;
+}
+ .button{
+    background-color: skyblue;
+    color: black;
+    size: 10px;
+    shape-margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    font-weight: 300;
+    font-style: inherit;
+ }
+.button:hover{
+    background-color: rgb(64, 64, 219);
+    size: 12px;
+    shape-margin: 8px;
+    font-size: 25px;
+
+}
+.reset{
+    background-color: skyblue;
+    color: black;
+    size: 10px;
+    shape-margin: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    font-weight: 300;
+    font-style: inherit;
+
+}
+.reset:hover{
+    background-color: rgb(64, 64, 219);
+    size: 12px;
+    shape-margin: 8px;
+    font-size: 25px;
+
+}
